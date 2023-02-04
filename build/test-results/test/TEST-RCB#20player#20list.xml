@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="RCB player list" tests="2" skipped="0" failures="0" errors="0" timestamp="2023-02-04T08:50:37" hostname="DESKTOP-R1PGNRE" time="0.288">
+  <properties/>
+  <testcase name="Valdate the foreign players for" classname="RCB player list" time="0.277"/>
+  <testcase name="Valdate the wicket keeper" classname="RCB player list" time="0.011"/>
+  <system-out><![CDATA[@Test
+Feature: RCB player list
+
+  @Test @foreginPalyesList
+  Scenario: Valdate the foreign players for                              ?[90m# src/test/resources/features/TestScenarios.feature:6?[0m
+    ?[32mGiven ?[0m?[32m: Read the response ?[0m?[32m?[1m'response'?[0m?[32m to validate the foreign players?[0m ?[90m# ValidateForeginPlayers.readTheResponseResponseToValidateTheForeignPlayers(String)?[0m
+    ?[32mThen ?[0m?[32m: Validate playing list have only four foreign players?[0m          ?[90m# ValidateForeginPlayers.validatePlayingListHaveOnlyFourForeignPlayers()?[0m
+====== Status:PASSED =======
+Current Status : >>> ?[42;1m PASSED : 1 ?[0m  ?[41;1m FAILED : 0 ?[0m ?[43;1m SKIPPED : 0 ?[0m
+
+  @Test @wicketKeeperList
+  Scenario: Valdate the wicket keeper                                 ?[90m# src/test/resources/features/TestScenarios.feature:12?[0m
+    ?[32mGiven ?[0m?[32m: Read the response ?[0m?[32m?[1m'response'?[0m?[32mto validate the wicket keeper?[0m ?[90m# ValidateWicketKeeper.readTheResponseResponseToValidateTheWicketKeeper(String)?[0m
+    ?[32mThen ?[0m?[32m: Validate playing list have only one wicket keeper?[0m          ?[90m# ValidateWicketKeeper.validatePlayingListHaveOnlyOneWicketKeeper()?[0m
+====== Status:PASSED =======
+Current Status : >>> ?[42;1m PASSED : 2 ?[0m  ?[41;1m FAILED : 0 ?[0m ?[43;1m SKIPPED : 0 ?[0m
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

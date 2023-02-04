@@ -1,0 +1,164 @@
+[
+  {
+    "line": 3,
+    "elements": [
+      {
+        "start_timestamp": "2023-02-04T08:50:37.518Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2104400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "CucumberHooks.beforeScenario(Scenario)"
+            }
+          }
+        ],
+        "line": 6,
+        "name": "Valdate the foreign players for",
+        "description": "",
+        "id": "rcb-player-list;valdate-the-foreign-players-for",
+        "after": [
+          {
+            "result": {
+              "duration": 1536000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "CucumberHooks.afterHook(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 238611200,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": ": Read the response \u0027response\u0027 to validate the foreign players",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u0027response\u0027",
+                  "offset": 20
+                }
+              ],
+              "location": "ValidateForeginPlayers.readTheResponseResponseToValidateTheForeignPlayers(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3827800,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": ": Validate playing list have only four foreign players",
+            "match": {
+              "location": "ValidateForeginPlayers.validatePlayingListHaveOnlyFourForeignPlayers()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Test"
+          },
+          {
+            "name": "@foreginPalyesList"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-02-04T08:50:37.795Z",
+        "before": [
+          {
+            "result": {
+              "duration": 166800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "CucumberHooks.beforeScenario(Scenario)"
+            }
+          }
+        ],
+        "line": 12,
+        "name": "Valdate the wicket keeper",
+        "description": "",
+        "id": "rcb-player-list;valdate-the-wicket-keeper",
+        "after": [
+          {
+            "result": {
+              "duration": 274600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "CucumberHooks.afterHook(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2407500,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": ": Read the response \u0027response\u0027to validate the wicket keeper",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u0027response\u0027",
+                  "offset": 20
+                }
+              ],
+              "location": "ValidateWicketKeeper.readTheResponseResponseToValidateTheWicketKeeper(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1235400,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": ": Validate playing list have only one wicket keeper",
+            "match": {
+              "location": "ValidateWicketKeeper.validatePlayingListHaveOnlyOneWicketKeeper()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Test"
+          },
+          {
+            "name": "@wicketKeeperList"
+          }
+        ]
+      }
+    ],
+    "name": "RCB player list",
+    "description": "",
+    "id": "rcb-player-list",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/TestScenarios.feature",
+    "tags": [
+      {
+        "name": "@Test",
+        "type": "Tag",
+        "location": {
+          "line": 2,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
